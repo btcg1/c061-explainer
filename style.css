@@ -177,6 +177,11 @@ table { border-collapse: collapse; font-size: 1rem; font-variant-numeric: tabula
 th, td { text-align: left; padding: 10px 14px 10px 0; vertical-align: top; border-bottom: 1px solid color-mix(in srgb, var(--ink) 22%, transparent); }
 th { font-weight: 500; border-bottom-color: var(--ink); }
 tr.hl td { background: var(--surface); }
+.worked { background: var(--surface); padding: 20px 24px; margin: 24px 0; }
+.worked > .eyebrow, .worked > small { display: block; font-weight: 500; margin-bottom: .5em; }
+.worked p:last-child, .worked ol:last-child { margin-bottom: 0; }
+.worked ol { padding-left: 1.3em; }
+.worked .tbl { margin: 12px 0; }
 .eq { font-family: var(--display); font-size: var(--step-body); background: var(--surface); padding: 16px 20px; margin: 20px 0; overflow-x: auto; }
 .eq .c { display: block; font-family: var(--text); font-size: var(--step-small); color: var(--muted); margin-top: 6px; }
 
