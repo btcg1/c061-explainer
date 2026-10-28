@@ -197,6 +197,7 @@ details .body { padding: 0 20px 18px; }
 .tag::after { content: ":"; }
 details.quiz { background: var(--field); color: var(--field-ink); }
 details.quiz > summary:hover { background: #47263a; }
+details.quiz .plain, details.quiz .plain a { color: var(--ink); }
 
 /* ---------- widgets ---------- */
 .widget { background: var(--surface); padding: clamp(24px, 3vw, 40px) var(--m) clamp(24px, 3vw, 40px) calc(var(--axis) - var(--m) + 0px); margin: 72px 0; display: block; }
